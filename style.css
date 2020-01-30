@@ -44,6 +44,7 @@
     background: #777;
     color: #ebebeb;
     padding-top: 10px;
+    padding-bottom: 10px;
     margin-top: 10px;
   }
 
@@ -51,27 +52,27 @@
       color: #777;
   }
 
-  /* Wrong color for now to show lack of margin/shrink to fit into article? */
+  /* Am i supposed to have header tags in h1, h2, h3 or typed in one line and bolded to demonstrate that's where we can put them? */
   #headerdivision {
-    padding: 20px;
-    margin-top: 20px;
-    background: darkblue;
+    padding: 10px;
+    margin: 20px;
+    background: #ebebeb;
     color: #777;
     font-weight: bold;
+
   }
 
-  /* Wrong color for now to show lack of margin/shrink to fit into article? */
   #paragraphdivision {
-    padding: 20px;
-    margin-top: 20px;
-    background: darkblue;
+    padding: 10px;
+    margin: 20px;
+    background: #ebebeb;
   }
 
   /* HOW TO MAKE SAME HEIGHT??? :( */
   aside {
     float: left;
     width: 48%;
-    height: 200px;
+    height: 362px;
     padding: 20px;
     margin-left: 30px;
     background: #ebebeb;
