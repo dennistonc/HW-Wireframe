@@ -30,6 +30,7 @@
     background: #ebebeb;
   }
   
+  /* Section width should be 495px but then how do i align? */
   #full {
     width: 48%;
     overflow: auto;
@@ -47,21 +48,26 @@
   }
 
   p {
-      color: #ebebeb;
+      color: #777;
   }
 
+  /* Wrong color for now to show lack of margin/shrink to fit into article? */
   #headerdivision {
     padding: 20px;
     margin-top: 20px;
-    background: #214fb3;
+    background: darkblue;
+    color: #777;
+    font-weight: bold;
   }
 
+  /* Wrong color for now to show lack of margin/shrink to fit into article? */
   #paragraphdivision {
     padding: 20px;
     margin-top: 20px;
-    background: #214fb3;
+    background: darkblue;
   }
-  
+
+  /* HOW TO MAKE SAME HEIGHT??? :( */
   aside {
     float: left;
     width: 48%;
@@ -72,6 +78,7 @@
     color: 777;
   }
 
+  /* HOW TO MAKE SAME HEIGHT??? :( */
   .clearfix::after {
     content: "";
         display: block;
